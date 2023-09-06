@@ -64,3 +64,7 @@ fn main() {
 
     println!("square of side equal to r1's height: {:#?}", Rectangle::square(r1.height));
 }
+
+fn unused_fn() -> String {
+    return String::from("use me");
+}
